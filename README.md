@@ -4,17 +4,13 @@
 Используемые набор данных получен отсюда: https://data.world/uci/computer-hardware
 
 Описание данных (на английском):
-1. vendor name: 30 
-      (adviser, amdahl,apollo, basf, bti, burroughs, c.r.d, cambex, cdc, dec, 
-       dg, formation, four-phase, gould, honeywell, hp, ibm, ipl, magnuson, 
-       microdata, nas, ncr, nixdorf, perkin-elmer, prime, siemens, sperry, 
-       sratus, wang)
-2. Model Name: many unique symbols
-3. MYCT: machine cycle time in nanoseconds (integer)
-4. MMIN: minimum main memory in kilobytes (integer)
-5. MMAX: maximum main memory in kilobytes (integer)
-6. CACH: cache memory in kilobytes (integer)
-7. CHMIN: minimum channels in units (integer)
-8. CHMAX: maximum channels in units (integer)
-9. PRP: published relative performance (integer)
-10. ERP: estimated relative performance from the original article (integer)
+1. Vendor name – название производителя процессора.
+2. Model Name – названи модели процессора.
+3. MYCT – машинный цикл в наносекундах.
+4. MMIN – минимальный размер памяти в килобайтах.
+5. MMAX – максимальный размер памяти в килобайтах.
+6. CACH – размер кэша в килобайтах.
+7. CHMIN – минимальное количество каналов.
+8. CHMAX – максимальное  количество каналов.
+9. PRP – опубликованная относительная производительность.
+10. ERP – относительная производительность, рассчитанная в статье по ссылке.
